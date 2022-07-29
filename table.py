@@ -32,36 +32,19 @@ body > div{
 }
 </style>
 
-<div>
-7 x 1 = 7
-7 x 2 = 14
-7 x 3 = 21
-7 x 4 = 28
-7 x 5 = 35
-7 x 6 = 42
-7 x 7 = 49
-7 x 8 = 56
-7 x 9 = 63
-7 x 10 = 70
+#!/usr/bin/python3
+print("Content-type: text/html \n")
+import magicwand
 
-10 x 1 = 10
-10 x 2 = 20
-10 x 3 = 30
-10 x 4 = 40
-10 x 5 = 50
-10 x 6 = 60
-10 x 7 = 70
-10 x 8 = 80
-10 x 9 = 90
-10 x 10 = 100
+num = 13 
 
-1 x 1 = 1
-1 x 2 = 2
-1 x 3 = 3
-1 x 4 = 4
-1 x 5 = 5
-1 x 6 = 6
-1 x 7 = 7
-1 x 8 = 8
-1 x 9 = 9
-1 x 10 = 10
+print(num, "x 1 =", num*1, "<br>")
+print(num, "x 2 =", num*2, "<br>")
+print(num, "x 3 =", num*3, "<br>")
+print(num, "x 4 =", num*4, "<br>")
+print(num, "x 5 =", num*5, "<br>")
+print(num, "x 6 =", num*6, "<br>")
+print(num, "x 7 =", num*7, "<br>")
+print(num, "x 8 =", num*8, "<br>")
+print(num, "x 9 =", num*9, "<br>")
+print(num, "x 10 =", num*10, "<br>")
