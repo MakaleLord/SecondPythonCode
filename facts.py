@@ -31,38 +31,20 @@ body > div{
 }
 </style>
 
-<div>
-Content-type:text/html 
+#!/usr/bin/python3
 
-Celebrity facts
+print("Content-type:text/html \n")
+import magicwand
 
-Celebrity facts about Robert Downy Jr
-- Robert Downy Jr was born in 1965                
-- Robert Downy Jr first movie was Pound.
-- Robert Downy Jr has a rating of 6.3
-
-Celebrity facts
-
-Celebrity facts about Chris Hemsworth
-- Chris Hemsworth was born in 1983                
-- Chris Hemsworth first movie was Star Trek.
-- Chris Hemsworth has a rating of not provided
-
-Celebrity facts
-
-Celebrity facts about Mark Ruffalo
-- Mark Ruffalo was born in 1967                
-- Mark Ruffalo first movie was The Denist.
-- Mark Ruffalo has a rating of 5.2
-
-Celebrity facts
-
-Celebrity facts about Leonardo DiCaprio
-- Leonardo DiCaprio was born in 1974                
-- Leonardo DiCaprio first movie was This Boy's Life.
-- Leonardo DiCaprio has a rating of 7.3
-
-  Movie name: Avengers: Infinity war IMdB: 8.5 Rotten Tomatoes: -- 
-  Movie name: Doctor Strange IMdB: 7.5 Rotten Tomatoes: 89% 
-  Movie name: The Pound IMdB: -- Rotten Tomatoes: -- 
-  Movie name: Guardians of The Galaxy IMdB: 8.1 Rotten Tomatoes: 91% 
+celebrity_name = "Chris Hemsworth"
+birth_year = 1983
+total_movies = 34
+first_movie = "Star Trek"
+rating = 6.9
+print(F"""
+Celebrity facts about {celebrity_name}
+- {celebrity_name} was born in {birth_year}
+- {celebrity_name} has done a total of {total_movies} movies.                
+- {celebrity_name} first movie was {first_movie}.
+- {celebrity_name} has a rating of {rating}
+""")
